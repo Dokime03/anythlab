@@ -147,7 +147,11 @@ legend {
   padding: 0;
   border: 0;
 }
+<!--new divs-->
+mbck {
+background-color:rgb(245,245,245);
 
+ }
 button,
 input,
 select,
@@ -4321,7 +4325,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar {
   position: relative;
-  min-height: 50px;
+  max-height: 50px;
   margin-bottom: 20px;
   border: 1px solid transparent;
 }
