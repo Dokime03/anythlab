@@ -217,7 +217,42 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+<!--new divs-->
+@font-face {
+	font-family: droidsansbold;
+	src: url('fonts/droidsansbold.woff');
+}
+@font-face {
+	font-family: droidsans;
+	src: url('fonts/droidsans.woff');
+}
+@font-face {
+	font-family: calibriItalica;
+	src: url('fonts/calibriItalica.woff');
+	
+}
+@font-face {
+	font-family: pragmatic;
+	src: url('fonts/pragmaticabold.woff');
+}
+@font-face {
+	font-family: pragregular;
+	src: url('fonts/pragregular.woff');
+}
+.color-change {
+color:#2A9F00;
+}
+.color-change:hover {
+color:rgb(0,100,0);
+}
+.colo {
+color:rgb(0,136,204);
+}
+.colo:hover {
+rgb(0, 136, 204);
+}
 
+<!--end-->
 @media print {
   * {
     color: #000 !important;
@@ -308,7 +343,7 @@ html {
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.428571429;
   color: #333333;
   background-color: #ffffff;
@@ -4325,8 +4360,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar {
   position: relative;
-  max-height: 50px;
-  margin-bottom: 20px;
+  min-height: 20px;
+  margin-bottom: 0px;
   border: 1px solid transparent;
 }
 
@@ -4580,8 +4615,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
     float: left;
   }
   .navbar-nav > li > a {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   .navbar-nav.navbar-right:last-child {
     margin-right: -15px;
@@ -6530,9 +6565,9 @@ button.close {
     font-size: 30px;
   }
   .carousel-caption {
-    right: 20%;
-    left: 20%;
+   
     padding-bottom: 30px;
+	marin:0 auto;
   }
   .carousel-indicators {
     bottom: 20px;

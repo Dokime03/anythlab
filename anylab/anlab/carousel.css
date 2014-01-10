@@ -43,7 +43,9 @@ body {
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
- 
+  margin:0 auto; !important 
+ width:100%;
+
 }
 
 /* Declare heights because of positioning of img element */
@@ -109,6 +111,8 @@ body {
   .marketing {
     padding-left: 0;
     padding-right: 0;
+	padding-top:40px;
+	padding-bottom:40px;
   }
 
   /* Navbar positioning foo */
